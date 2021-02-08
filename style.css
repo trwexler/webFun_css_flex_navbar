@@ -1,0 +1,60 @@
+.center-box{
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+
+.center-item{
+    width:100px;
+    height:100px;
+    background-color: beige;
+}
+
+
+
+#nav-bar{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    background-color: lightblue;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:919px;
+   
+    margin:auto;
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 8px;
+    width:30%;
+    padding-right: 0px;
+    
+
+}
+
+img{
+    padding-right: 50px;
+}
+
+ul{
+    display: flex;
+   justify-content: space-around;
+    list-style-type:none;
+    width: 75%;
+    font-size: 12px;
+    padding-left: 0px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
